@@ -1,0 +1,4 @@
+section 1 was all setup and intro stuff. local server, code editor etc.
+
+section 2 - html skeleton and basic file setup
+

@@ -1,0 +1,3 @@
+notes about what happened in this section
+
+- mainly setup of local server, code editor, testing index.php etc.
