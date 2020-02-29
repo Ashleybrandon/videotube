@@ -1,3 +1,4 @@
+<?php require_once('includes/config.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,7 +37,7 @@
                     <img class="upload" src="assets/images/icons/upload.png" alt="upload">
                 </a>
                 <a href="upload.php">
-                    <img class="upload" src="assets/images/profilePictures/default.png" alt="user icon">
+                    <img class="upload" src="assets/images/icons/user-solid.svg" alt="user icon">
                 </a>
             </div>
         </div>
