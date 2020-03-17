@@ -15,12 +15,13 @@ class VideoDetailsFormProvider {
         $privacyInput = $this->createPrivacyInput();
         $categoriesInput = $this->createCategoriesInput();
         $uploadButton = $this->createUploadButton();
-        return "<form action='processing.php' method='POST'>
+        return "<form action='processing.php' method='POST' enctype='multipart/form-data'>
+                    $fileInput
                     $titleInput
                     $descriptionInput
                     $privacyInput
                     $categoriesInput
-                    $fileInput
+                    $uploadButton
                  </form>";
 
         }
